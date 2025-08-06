@@ -7,7 +7,7 @@ import time
 st.set_page_config(page_title="Aryan's FastAPI App", page_icon="⚡")
 
 # ----------------- Constants -----------------
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://aryans-first-fastapi.onrender.com/"
 
 DUMMY_QUESTIONS = [
     "Who created this project?",
