@@ -32,7 +32,7 @@ A minimal FastAPI project that responds with greetings and redirects.
 
 ---
 
-**Endpoints:**
+**API Endpoints you can trigger with buttons available:**
 - `/` → Hello message  
 - `/owner` → Owner info  
 - `/github` → Redirect to GitHub  
