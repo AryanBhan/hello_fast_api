@@ -3,6 +3,8 @@ import requests
 import webbrowser
 import time
 
+def open_link(url):
+    st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
 # ✅ Must be at the very top
 st.set_page_config(page_title="Aryan's FastAPI App", page_icon="⚡")
 
@@ -60,10 +62,11 @@ with col1:
 
 with col2:
     if st.button("🔗 Open GitHub Repo"):
-        webbrowser.open(f"{API_BASE}/github", new=1)
+        open_link("https://github.com/AryanBhan/hello_fast_api")
 
     if st.button("🔗 Visit LinkedIn"):
-        webbrowser.open(f"{API_BASE}/linkedin", new=1)
+        open_link("https://www.linkedin.com/in/aryanbhan/")
+
 
 # ----------------- Chatbot Section -----------------
 st.markdown("---")
