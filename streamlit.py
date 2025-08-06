@@ -4,7 +4,7 @@ import webbrowser
 import time
 
 def open_link(url):
-    st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
+    st.markdown(f'<a href="{url}" target="_blank">Click here to open</a>', unsafe_allow_html=True)
 # ✅ Must be at the very top
 st.set_page_config(page_title="Aryan's FastAPI App", page_icon="⚡")
 
