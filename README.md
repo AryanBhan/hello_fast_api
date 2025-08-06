@@ -1,7 +1,6 @@
 
 ---
 
-```markdown
 # 🚀 FastAPI Hello World Project
 
 Welcome to the **FastAPI Hello World** project — a lightweight and blazing-fast web API built using the powerful **FastAPI** framework. This API serves as a minimal yet expressive introduction to FastAPI, showcasing how simple it is to build and expose endpoints.
@@ -10,14 +9,15 @@ Welcome to the **FastAPI Hello World** project — a lightweight and blazing-fas
 
 ## 📁 Project Structure
 
-```
 
-.
+
 ├── app.py             # Main application file
+
 ├── README.md          # You're reading it :)
+
 └── requirements.txt   # Required Python packages
 
-````
+
 
 ---
 
@@ -109,7 +109,7 @@ This project is open source and free to use for learning and experimentation.
 
 ---
 
-### ✅ `requirements.txt` (for completeness):
+✅ `requirements.txt` (for completeness):
 annotated-types==0.7.0
 anyio==4.10.0
 click==8.1.8
